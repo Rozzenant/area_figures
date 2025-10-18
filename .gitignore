@@ -1,1 +1,22 @@
-venv
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+
+# Coverage
+.coverage
+.coverage.*
+.cache/
+.pytest_cache/
+htmlcov/
+
+# Test reports / Tox
+.tox/
+nosetests.xml
+coverage.xm
