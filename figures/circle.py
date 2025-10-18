@@ -1,5 +1,5 @@
 import math
-from ..base import Shape
+from area_figures.base.base import Shape
 
 class Circle(Shape):
     def __init__(self, radius: float) -> None:

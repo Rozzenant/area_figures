@@ -1,5 +1,5 @@
 import math
-from ..base import Shape
+from area_figures.base.base import Shape
 from typing import Tuple
 
 class Triangle(Shape):
