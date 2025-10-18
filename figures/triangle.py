@@ -2,6 +2,7 @@ import math
 from area_figures.base.base import Shape
 from typing import Tuple
 
+
 class Triangle(Shape):
     def __init__(self, a: float, b: float, c: float) -> None:
         sides: Tuple[float, float, float] = tuple(sorted([a, b, c]))
